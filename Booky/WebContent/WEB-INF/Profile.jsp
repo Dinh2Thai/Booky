@@ -18,6 +18,10 @@
 </p></div>
 <br>
 
-<p>Welcome to Booky, where you can buy or sell books!</p>
+<form>
+<div>
+<img id="profileImg" src="<%=request.getContextPath() + "/Images/SetProfile.png"%>" alt="Profile Picture">
+</div>
+</form>
 </body>
 </html>
