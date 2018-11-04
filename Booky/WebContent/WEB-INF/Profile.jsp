@@ -18,10 +18,13 @@
 </p></div>
 <br>
 
-<form>
+<form action='Profile' method='post'>
 <div>
-<img id="profileImg" src="<%=request.getContextPath() + "/Images/SetProfile.png"%>" alt="Profile Picture">
+<img id="profileImg" src="<%=request.getContextPath()%>${link}" alt="Profile Picture">
 </div>
+<input type='file' name='imgLink'>
+<br>
+<input type='submit' value='Upload' name='upload'>
 </form>
 </body>
 </html>
