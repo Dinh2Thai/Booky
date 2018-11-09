@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,8 +20,10 @@
 <br>
 
 <form action='Profile' method='post'>
+<h2>John Doe</h2>
 <div>
-<img id="profileImg" src="<%=request.getContextPath()%>${link}" alt="Profile Picture">
+<img id="profileImg" src="${link}" alt="Profile Picture">
+</div>
 </div>
 <input type='file' name='imgLink'>
 <br>
